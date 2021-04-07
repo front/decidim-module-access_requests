@@ -16,7 +16,7 @@ gem "decidim", DECIDIM_VERSION
 gem "decidim-access_requests", path: "."
 
 gem "bootsnap", "~> 1.4"
-gem "puma", "~> 4.3.3"
+gem "puma", "~> 5.0"
 gem "uglifier", "~> 4.1"
 
 group :development, :test do
@@ -39,4 +39,4 @@ group :test do
 end
 
 # Remediate CVE-2019-5420
-gem "railties", ">= 5.2.2.1"
+gem "railties", "= 5.2.4.5"
